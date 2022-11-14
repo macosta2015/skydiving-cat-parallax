@@ -39,19 +39,19 @@ function App() {
           }}
         ></ParallaxLayer>
 
-        <ParallaxLayer
+        {/* <ParallaxLayer
           sticky={{ start: 0.9, end: 2.5 }}
           style={{ textAlign: 'center' }}
         >
           <img src={cat} />
-        </ParallaxLayer>
+        </ParallaxLayer> */}
 
         <ParallaxLayer
           offset={0.2}
           speed={0.05}
           onClick={() => ref.current.scrollTo(3)}
         >
-          <h2>Welcome to my website</h2>
+          <h2>HOLA PAREDES Y EDU</h2>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -59,7 +59,7 @@ function App() {
           speed={2}
           onClick={() => ref.current.scrollTo(0)}
         >
-          <h2>Hi Mom!</h2>
+          <h2>HOLA MUNDO</h2>
         </ParallaxLayer>
       </Parallax>
     </div>
